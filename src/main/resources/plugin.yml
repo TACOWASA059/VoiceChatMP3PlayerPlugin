@@ -1,0 +1,14 @@
+name: VoiceChatMP3Player
+version: '${project.version}'
+main: com.github.tacowasa059.voicechatmp3player.VoiceChatMP3Player
+api-version: '1.20'
+depend:
+  - voicechat
+commands:
+  mp3at:
+    description: Play MP3 from a location using Simple Voice Chat (add/remove/list)
+    usage: /mp3at add <world> <x> <y> <z> <radius> <mp3-url> <loops|infinity> <gain> | /mp3at remove <uuid> | /mp3at list
+    permission: voicechatmp3.play
+permissions:
+  voicechatmp3.play:
+    default: op
