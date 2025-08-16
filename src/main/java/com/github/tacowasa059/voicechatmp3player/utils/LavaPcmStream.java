@@ -37,7 +37,7 @@ public class LavaPcmStream implements AutoCloseable {
 
         this.manager = new DefaultAudioPlayerManager();
         this.manager.getConfiguration()
-                .setOutputFormat(StandardAudioDataFormats.COMMON_PCM_S16_LE);
+                .setOutputFormat(StandardAudioDataFormats.DISCORD_PCM_S16_LE);// 48000
 
         AudioSourceManagers.registerRemoteSources(manager);
         AudioSourceManagers.registerLocalSource(manager);
