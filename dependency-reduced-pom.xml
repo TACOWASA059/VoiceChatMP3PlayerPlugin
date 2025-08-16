@@ -4,7 +4,7 @@
   <groupId>com.github.tacowasa059</groupId>
   <artifactId>VoiceChatMP3Player</artifactId>
   <name>VoiceChatMP3Player</name>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
   <build>
     <resources>
       <resource>
